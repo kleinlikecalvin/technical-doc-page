@@ -35,7 +35,7 @@ header {
   text-align: center;
   background-color: #d0dbda;
   display: block;
-  padding: 10px 30px;
+  padding: 10px 10px;
   color: #4d4e53;
   text-decoration: none;
   cursor: pointer;
@@ -60,6 +60,19 @@ p {
 }
 #the_list {
   margin: 15px 0px 0px 20px;
+}
+#foot {
+  text-align: center;
+}
+hr {
+  background-color: #4d4e53;
+}
+#footLink {
+  color: black;
+  text-decoration: none;
+}
+#footLink:hover {
+  color: #d0dbda;
 }
 @media only screen and (max-width: 815px) {
   /* For mobile phones: */
