@@ -1,0 +1,22 @@
+body {
+  font-family: "Poppins", sans-serif;
+  border: 2px solid black;
+}
+#navbar {
+  border: 2px solid black;
+}
+.nav-link {
+  border: 2px solid black;
+}
+#main-doc {
+  border: 2px solid black;
+}
+.main-section {
+  border: 2px solid black;
+}
+p {
+  border: 2px solid black;
+}
+#the_list {
+  border: 2px solid black;
+}
