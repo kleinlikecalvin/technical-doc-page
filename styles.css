@@ -3,20 +3,23 @@ body {
   font-family: "Poppins", sans-serif;
 }
 #navbar {
+  background-image: url("https://www.adelphipaperhangings.com/wp-content/uploads/2018/12/PineapplesA-1024x1024.jpg");
   position: fixed;
   min-width: 290px;
   top: 0px;
   left: 0px;
   width: 300px;
   height: 100%;
-  border-right: solid;
+  border-right: solid #222b19;
 }
 header {
+  background-color: #d0dbda;
   color: black;
   margin: 10px;
   text-align: center;
   font-size: 1.8em;
   font-weight: thin;
+  border-radius: 10px;
 }
 #nav-ul {
   height: 88%;
@@ -24,17 +27,21 @@ header {
   overflow-y: auto;
   overflow-x: hidden;
   color: #4d4e53;
-  border-top: 1px solid;
   list-style: none;
   position: relative;
   width: 100%;
 }
 .nav-link {
+  text-align: center;
+  background-color: #d0dbda;
   display: block;
   padding: 10px 30px;
   color: #4d4e53;
   text-decoration: none;
   cursor: pointer;
+  border-radius: 4px;
+  margin: 2%;
+  box-shadow: 2px 2px 2px 2px grey;
 }
 #main-doc {
   position: absolute;
@@ -62,7 +69,7 @@ p {
   }
 
   #navbar {
-    background-color: white;
+    background-image: url("https://www.adelphipaperhangings.com/wp-content/uploads/2018/12/PineapplesA-1024x1024.jpg");
     position: absolute;
     top: 0;
     padding: 0;
